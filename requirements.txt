@@ -3,6 +3,7 @@ pylint == 2.15.3 #needed
 pytest== 7.4.0 #needed for testing
 pytest-cov==4.0.0 #needed for testing
 black==22.3.0 #formatter
+ruff
 
 #data and visualizations
 pandas
