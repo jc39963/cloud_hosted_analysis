@@ -1,5 +1,7 @@
 # Cloud Hosted Notebook
 
+[![cicd](https://github.com/jc39963/cloud_hosted_analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/jc39963/cloud_hosted_analysis/actions/workflows/ci.yml)
+
 ## About the Project
 The purpose of this project is to perform data manipulation tasks in a cloud hosted notebook. The analysis is done in Google Colab and the [dataset]("https://github.com/fivethirtyeight/data/tree/master/historical-ncaa-forecasts") is a dataset of NCAA tournament predictions along with whether the predicted games were won or not. In this analysis, we see what the actual win percentages are for games in various bins of win prediction probabilities. 
 
