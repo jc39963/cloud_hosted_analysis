@@ -1,36 +1,36 @@
-# Netflix Movie and TV Shows Project Overview
+# Cloud Hosted Notebook
 
 ## About the Project
-The purpose of this project is to generate descriptive statistics and look into trends of movie and TV show releases on Netflix over the years. 
+The purpose of this project is to perform data manipulation tasks in a cloud hosted notebook. The analysis is done in Google Colab and the [dataset]("https://github.com/fivethirtyeight/data/tree/master/historical-ncaa-forecasts") is a dataset of NCAA tournament predictions along with whether the predicted games were won or not. In this analysis, we see what the actual win percentages are for games in various bins of win prediction probabilities. 
 
 
 ## Note on the repository and directions:
-This project contains:
+This repository also contains local files for CI/CD integration:
 * requirements.txt detailing the requirements needed for this project
 * Makefile to install requirements, lint, format, and test your code
-* github actions with separate YAML files for Install, Lint, Format, and Test in the github workflows folder
+* github actions 
 * DockerFile and devcontainer for environment set up
-* Jupyter notebook performing descriptive statistics 
-* main.py Python script for statistics and generating data visualizations
+* Jupyter notebook performing descriptive statistics and analysis + Cloud hosted notebook with badge
+* main.py Python script for performing data manipulation and analysis
 * test_main.py for Python testing scripts
-* Summary pdf containing the walkthrough and  conclusions found in the data analysis
 
+
+## Description of Analysis
+This analysis checks the actual win percentages of games grouped by what their projected win probabilities were. For example, were games that were predicted to have a 0.5 - 0.599 chance of winning actually won ~50 - 59% of the time? I display this data in a dataframe along with what their predicted win percentage bins are to see how accurate the predicted win percentages were. 
 
 
 ## Preparation
 1. Open codespaces 
 2. Load repo to code spaces
-2. Wait for installation of all requirements in requirements.txt
+3. Wait for installation of all requirements in requirements.txt
+4. Run main.py  
 
 ## Check format and test errors
 1. Format code `make format`
-![image](https://github.com/user-attachments/assets/7688b60a-9f2b-45a2-acf3-8a7f66f346e1)
 
 2. Lint code `make lint`
-![image](https://github.com/user-attachments/assets/a225ac16-a6f1-4460-bc94-c6f9f6eae799)
 
 3. Test code `make test`
-![image](https://github.com/user-attachments/assets/366e23c2-a513-400f-bb7d-900abbdd41b1)
 
 (alternatively, do all with `make all`)
 
