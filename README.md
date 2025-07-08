@@ -1,4 +1,4 @@
-# Cloud Hosted Notebook
+# NCAA Cloud Hosted Notebook
 
 [![cicd](https://github.com/jc39963/cloud_hosted_analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/jc39963/cloud_hosted_analysis/actions/workflows/ci.yml)
 
